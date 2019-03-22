@@ -13,7 +13,7 @@ function item03_1() {
   document.getElementById('content03').innerHTML = Date();
 }
 function item03_2() {
-  alert( Date() )
+  alert( Date() );
 }
 
 ////////////     item-01     /////////////
