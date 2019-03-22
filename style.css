@@ -55,14 +55,22 @@ body {
   padding: 10px;
 }
 
-input {
-  width: 500px;
-  padding: 10px;
-  color:indianred;
-  border: 1px solid indianred;
+.item-container > p {
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
 
-input:hover, input:focus-within {
+.input, .btn {
+  padding: 10px 25px;
+  color:indianred;
+  border: 1px solid indianred;
+  margin: auto;
+}
+
+.input:hover,
+.input:focus-within,
+.btn:hover {
   background-color: indianred;
   color: #fff;
 }
@@ -81,4 +89,9 @@ input:hover, input:focus-within {
   height: 2px;
   margin: auto;
   background-color: indianred;
+}
+
+.center {
+  margin: 10px auto;
+  display: table;
 }
