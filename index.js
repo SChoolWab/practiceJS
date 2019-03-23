@@ -16,7 +16,14 @@ function item03_2() {
   alert( Date() );
 }
 
-////////////     item-01     /////////////
+////////////     item-04     /////////////
+function item04_on() {
+  document.getElementById('content04').src = "img/pic_bulbon.gif";
+}
+function item04_off() {
+  document.getElementById('content04').src = "img/pic_bulboff.gif";
+}
+
 
 ////////////     item-01     /////////////
 

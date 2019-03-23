@@ -26,6 +26,7 @@ body {
   min-height: 500px;
   padding: 10px 25px;
   background-color: aliceblue;
+  padding-top: 50px;
   margin-top: 60px;
   border-bottom: 10px solid indianred;
 }
