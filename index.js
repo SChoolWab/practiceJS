@@ -25,7 +25,16 @@ function item04_off() {
 }
 
 
-////////////     item-01     /////////////
+////////////     item-05     /////////////
+function item05(f) {
+  return (5/9) * (f-32);
+  document.getElementById("item05").innerHTML = item05(f);
+}
+
+// function item05_output () {
+//   document.getElementById('item05').innerHTML = item05(farenhite);
+// }
+
 
 ////////////     item-01     /////////////
 

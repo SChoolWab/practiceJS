@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title id="myTitle">Document</title>
+  <style>
+  body {
+    height: 250px;
+    background: yellowgreen;
+  }
+  p {
+    font-size: 35px;
+  }
+  </style>
+</head>
+<body>
+  <div id="div1">
+    <p id="id01">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, reiciendis.</p>
+
+    <p id="id02">Lorem ipsum dolor sit amet.</p>
+    <p id="demo"></p>
+
+  </div>
+    
+
+    
+    <script>
+    var aaa = document.getElementById("id01");
+      var x = screen.availWidth;
+      var y = screen.availHeight;
+      var z = screen.colorDepth;
+      var xz = screen.pixelDepth;
+      var srcc = window.location.href;
+      var host = window.location.hostname;
+      var path = window.location.pathname;
+      var proto = window.location.protocol;
+      var port = window.location.port;
+      var appName = navigator.appName;
+      var code = navigator.appCodeName;
+      var platform = navigator.platform;
+      var pro = navigator.product;
+
+    document.addEventListener("mouseover", function(e) {
+      document.getElementById("demo").innerHTML =  pro;
+      console.log(e);
+
+    })
+    </script>
+</body>
+</html>
